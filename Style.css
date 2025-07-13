@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: 0%;
+  
+}
+.mainHeader {
+    color: rgb(255, 255, 255);
+    font-family: "Press Start 2P";
+    display: flex;
+    border-bottom: 1px solid;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(34, 36, 153, 0.747), rgba(0, 110, 255, 0.603));
+    position: sticky  ;
+    top: 0%;
+    z-index: 1000;
+}
+
+.mainHeaderTxt {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+.navBar {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+.palomo,
+.alvarez,
+.isidro {
+    border: 1px solid white;
+    padding: 12px;
+    color: rgb(60, 211, 211);
+    background-color: hsl(0, 0%, 90%);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: ease-in-out 0.2s;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.arintoc {
+  border: 1px solid white;
+    padding: 12px;
+    color: rgb(179, 179, 179);
+    background-color: hsl(0, 0%, 90%);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: ease-in-out 0.2s;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+    
+}
+
+.membersTxt {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.palomo:hover,
+.arintoc:hover,
+.alvarez:hover,
+.isidro:hover {
+    color: rgb(179, 179, 179);
+    transform: scale(1.1);
+}
+
+.MainBg {
+  position: fixed;    
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  opacity: 0.95;
+}
